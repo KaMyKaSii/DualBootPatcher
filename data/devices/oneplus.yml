@@ -136,6 +136,10 @@
       - /dev/block/platform/soc/624000.ufshc/by-name/recovery
       - /dev/block/sde21
 
+  crypto:
+    supported: true
+    header_path: footer
+
 
 - name: OnePlus X
   id: onyx
